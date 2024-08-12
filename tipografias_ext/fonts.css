@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Erick-font";
+    /* con format se especifica de entrada al navegador que tipo de fuente es, mejorando 
+    compatibilidad */
+    src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+/* 
+si se define una weight diferente permite usar checkpoints cuando se use la tipografia */
+@font-face {
+    font-family: "Erick's-font";
+    /* con format se especifica de entrada al navegador que tipo de fuente es, mejorando 
+    compatibilidad */
+    src: url("fonts/Montserrat-ExtraLight.ttf") format("truetype");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Erick's-font";
+    /* con format se especifica de entrada al navegador que tipo de fuente es, mejorando 
+    compatibilidad */
+    src: url("fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Erick's-font";
+    /* con format se especifica de entrada al navegador que tipo de fuente es, mejorando 
+    compatibilidad */
+    src: url("fonts/Montserrat-ExtraBold.ttf") format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Erick's-font";
+    /* con format se especifica de entrada al navegador que tipo de fuente es, mejorando 
+    compatibilidad */
+    src: url("fonts/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
+}

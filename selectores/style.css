@@ -1,0 +1,20 @@
+
+/*El identificadorr más básico es por el nombre de la etiqueta, esto modifica a todas
+  las etiquetas del mismo tipo*/
+p {
+    color: burlywood;
+}
+
+span {
+    color: red;
+}
+
+/*Con el selector de clase se pueden modificar muchas etiquetas para darles el mismo estilo*/
+.prueba_clas{
+    color: blue;
+}
+
+/*El identificador de id debe ser unico por etiqueta*/
+#prueba_id{
+    color: green;
+}

@@ -1,0 +1,34 @@
+p{
+    /* modifica el color del texto */
+    color: red;
+    /* define una familia de fuentes, si la primera no carga se usa la segunda */
+    font-family: sans-serif,Tahoma;
+    font-size: 13px;
+    /* modifica el ancho del texto */
+    /* dependiendo de la tipografia se pueden cambiar los espacios, segun el creador hay más
+    pasos entre el ancho o menos */
+    font-weight: 100;
+    /* bold es el equivalente a 700 y bolder pasa al siguiente tamaño */
+    font-weight: bolder;
+    /* los estilos de fuente pueden ser italic, normal, oblicue (intermedio entre italic y normal) */
+    font-style: oblique;
+    /* esta característica da formato al texto (justificar) 
+       puede ser: start, end, right, left*/
+    text-align: justify;
+    /* line-through tacha el txto, under subraya por debajo y over encima */
+    text-decoration: line-through overline underline;
+    /* interlineado del texto */
+    line-height: 2;
+    /* espacio entre letras */
+    letter-spacing: 5px;
+    /* transforma el texto a: mayúscula, minúscula, capitaliza */
+    text-transform: capitalize;
+
+}
+
+h1{
+        /* text align modifica la alineacion del texto dentro de su mismo contenedor 
+           solo funciona con los elementos de bloque o si el contenedor es más grande
+           que el contenido*/
+        text-align: center;
+}

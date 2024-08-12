@@ -1,0 +1,9 @@
+/* 
+cuando se utilizan porcentajes, el total es el elemento contenedor */
+input{
+   width: 90%;
+}
+
+form{
+   width: 400px;
+}

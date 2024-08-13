@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.box-default{
+    padding: 25px;
+    border: 10px solid black;
+}
+/* 
+border box es una configuración que indica que el tamaño nunca puede superar
+lo que está definido */
+.box-new{
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px solid black;
+}

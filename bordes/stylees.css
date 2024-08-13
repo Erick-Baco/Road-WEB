@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+div{
+    background: rgb(0, 255, 200);
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+div{
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    border: 10px dashed rgb(0, 128, 21);
+    border-top: 10px solid black;
+    border-right: 10px solid blue;
+    /* si se ponen dos atributos se afectan los bordes de forma cruzada */
+    border-radius: 4px 8px;
+    /* definir los bordes uno por uno */
+    border-radius: 5px 10px 15px 20px;
+    
+
+}
+
+input{
+    margin: 5px;
+    padding: 5px 5px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 255, 242);
+    background: transparent;
+    /* color también modifica el color del texto dentro de la caja */
+    color: aqua;
+}

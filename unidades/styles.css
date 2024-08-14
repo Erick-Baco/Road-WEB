@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+div{
+    background: #ededed;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 14px;
+    width: 80vw;
+    height: 8%;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+h1{
+    margin: 0;
+    background-color: #5555554c;
+    font-size: 24px;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+
+}
+
+span{
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p{
+    color: #555;
+    font-size: 1em;
+}

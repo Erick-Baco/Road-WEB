@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: rgba(255, 247, 190, 0.4);
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+}
+
+form{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 35px #0006;
+    margin-top: 50px;
+}
+
+.form_input{
+    padding: 6px 20px
+}
+
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: black solid;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: transparent;
+    color: black;
+}
+
+/*Text area se puede redimensionar, pero esto se controla con resize que puede ser: 
+horizontal, vertical y none
+twext area tambén tiene su propia tipografia, por lo que se tiene que especificar individualmente
+*/
+textarea{
+    min-width: 100px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    font-family: sans-serif;
+}

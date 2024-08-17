@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texte area</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <form action="">
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <!--el id también funciona para posicionar el cursor -->
+            <label for="nombre">Nombre completo</label>
+            <input type="text" placeholder="Erick Baco" id="nombre">
+        </div>
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input type="email" placeholder="my_email14@mail.com" id="email">
+        </div>
+        <div class="form_input">
+            <!--Se puede poner como readonly, disable, maxlength-->
+            <!--Rows y columns da un tamaño incial que si se supera genera scrol-->
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" placeholder="Deja un mensaje"></textarea>
+        </div>
+        <div class="form_input">
+            <label>Terminos y condiciones
+                <input type="checkbox" name="" id="" class="checkbox">
+            </label>
+        </div>
+    </form>
+</body>
+</html>

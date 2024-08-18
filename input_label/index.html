@@ -10,6 +10,9 @@
     
     <form action="">
         <h2>Formulario de contacto</h2>
+
+        <!--Imput sencillo -->
+
         <div class="form_input">
             <!--el id también funciona para posicionar el cursor -->
             <label for="nombre">Nombre completo</label>
@@ -19,6 +22,36 @@
             <label for="email">Email</label>
             <input type="email" placeholder="my_email14@mail.com" id="email">
         </div>
+
+        <!--Datalist y option-->
+
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name="type-of-user" id="">
+                    <option value="user1">Opcion 1</option>
+                    <option value="user2">Opcion 2</option>
+                    <option value="user3">Opcion 3</option>
+                    <option value="user4">Opcion 4</option>
+                </select>
+            </label>
+        </div>
+        
+        <!--datalist funciona para autocompletar al usuario, solo se envía al backend
+            el contenido de value-->
+        <div class="form_input">
+            <label>Referente
+                <input type="text" list="referente">
+                <datalist name="type-of-user" id="referente">
+                    <option >Opcion 1</option>
+                    <option >Opcion 2</option>
+                    <option value="user3">Opcion 3</option>
+                    <option value="user4"></option>
+                </datalist>
+            </label>
+        </div>
+
+        <!-- Text area-->
+
         <div class="form_input">
             <!--Se puede poner como readonly, disable, maxlength-->
             <!--Rows y columns da un tamaño incial que si se supera genera scrol-->

@@ -26,7 +26,7 @@ form{
     padding: 6px 20px
 }
 
-input, textarea{
+input, textarea, select{
     width: 100%;
     box-sizing: border-box;
     padding: 6px 12px;

@@ -1,0 +1,23 @@
+td,th{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 6px;
+    font-family: sans-serif;
+}
+
+td{
+    color: #444;
+}
+
+table{
+    width: 100%;
+    border-spacing: 12px;
+    box-shadow: 0 0 35px #888;
+    max-width: 500px;
+    margin: auto;
+}
+
+.th_foot{
+    border: none;
+    padding: a5px;
+}

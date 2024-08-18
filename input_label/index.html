@@ -11,7 +11,9 @@
     <form action="">
         <h2>Formulario de contacto</h2>
 
-        <!--Imput sencillo -->
+        <fieldset>
+            <legend>Información personal</legend>
+                    <!--Imput simple -->
 
         <div class="form_input">
             <!--el id también funciona para posicionar el cursor -->
@@ -19,9 +21,14 @@
             <input type="text" placeholder="Erick Baco" id="nombre">
         </div>
         <div class="form_input">
+            <label for="email">Edad</label>
+            <input type="number" placeholder="19" id="email">
+        </div>
+        <div class="form_input">
             <label for="email">Email</label>
             <input type="email" placeholder="my_email14@mail.com" id="email">
         </div>
+        </fieldset>
 
         <!--Datalist y option-->
 

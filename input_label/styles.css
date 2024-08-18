@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgba(255, 247, 190, 0.4);
+    background: linear-gradient(to top, rgb(240, 239, 158), rgb(255, 255, 255) );
     font-family: sans-serif;
 }
 
@@ -10,7 +10,7 @@ h2{
     margin-bottom: 20px;
     font-weight: 100;
     font-size: 22px;
-    padding: 10px;
+    padding: 10px;ß
 }
 
 form{
@@ -20,6 +20,7 @@ form{
     margin: auto;
     box-shadow: 0 0 35px #0006;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .form_input{
@@ -56,4 +57,17 @@ label{
 
 .checkbox{
     width: auto;
+}
+
+fieldset{
+    margin: 10px 0;
+    border: 1px solid #0006;
+    border-radius: 5px;
+    padding: 8px 6px 20px 6px;
+    margin: 20px;
+}
+
+legend{
+    padding: 0 6px;
+    color: #0009;
 }

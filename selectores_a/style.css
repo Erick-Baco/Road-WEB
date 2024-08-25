@@ -1,0 +1,115 @@
+
+/*Herencia
+  lps estilos que se asignan a un contenedor tamppién se aplican a los elementos que contine*/
+body{
+    color: brown;
+    font-family: sans-serif;
+}
+
+/*Selector dee atributi
+  para seleccionar imagenes de cierto tipo se puede:
+  seleccionar solo el nomnbre
+  $ <- los que tienen la misma terminacion
+  ^ <- selecciona los que empiezan con lo que está dentro de comillas*/
+
+img[src$="jpeg"]{
+    width: 100%;
+}
+
+/*Selector de hijo directo
+  el simbolo > indica una relación dee hijo directo, si no se usa este simbolo bastará
+  con que la segunda  estiqueta esté dentro de la primera para que se aplique el estilo*/
+li > strong{
+    color: red;
+}
+
+ul li{
+    color: #666;
+}
+
+/*Selector de hermano adyacente
+El simbolo + indica que el estilo se aplicará solo al primero adyacente
+mientras que el de hermano general es el simblo ~ */
+
+h1 + p {
+    color: blue;
+    font-family: initial;
+}
+
+h1 ~ p{
+    color: rebeccapurple;
+}
+
+/*selecciona un elemento cuando se pasa el raton sobre el elemento*/
+h1:hover{
+    background-color: #666;
+}
+
+/* se activa mientras se da cliik en un elemento oesta activo*/
+h1:active{
+    color: aqua;
+}
+
+/*solo seleccionar determinados elementoss*/
+li:first-child{
+    color: green;
+}
+
+li:last-child{
+    color: purple;
+}
+
+li:nth-child(3){
+    color: yellow;
+}
+/* cada 4 elementos aplica el estilo*/
+li:nth-child(4n){
+    color: blue;
+}
+
+/*excluir elementos poro clase*/
+.lista li:not(.excluir){
+    color: red;
+}
+
+div:empty{
+    border: 4px solid black;
+    margin: 10px;
+}
+
+/*enlaces invalidos*/
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: forestgreen;
+}
+
+input:invalid{
+    color: red;
+}
+
+/*seleccionar los elementos que estan en x contenedor*/
+ul :where(.elementos){
+    color: blue;
+}
+
+/*hahs permite seleccionar elementos que contngan x elementos o que sean oredecesores de otro*/
+
+ul:has(div){
+    background-color: #666;
+}
+
+ul:has(+div){
+    background-color: green;
+}
+
+label:has(input:valid){
+    color:green;
+}
+
+label:has(input:invalid){
+    color:purple;
+}
+

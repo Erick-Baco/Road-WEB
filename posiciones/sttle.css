@@ -1,0 +1,29 @@
+.container{
+    border: 4px solid black;
+    position: relative;
+    margin: 30px;
+    background-color: antiquewhite;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    
+}
+
+/*las direcciones indican desde donde conte pixeles*/
+.box--blue{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box--red{
+    background-color: red;
+}

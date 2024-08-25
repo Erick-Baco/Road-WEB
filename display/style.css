@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div{
+    background-color: #999 ;
+}
+
+a{
+    background-color: red;
+    color: #fff;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+}
+
+/*Para elementos en lina el margin y el paddinf solo aplican en horizontal*/
+p{
+    display: inline;
+   color: #fff;
+   background-color: black;
+   height: 100px;
+   margin: 30px; 
+}
+
+.nav{
+    background-color: #48e;
+}
+
+.nav__list{
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item:hover{
+    color: #444;
+}
+
+.nav__item{
+    display: inline-block;
+    padding: 10px;
+    background-color: #48e;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__button{
+    background-color: #fff;
+    color: #48e;
+    padding: 6px 18px ;
+    margin-left: 2em;
+    border-radius: 4px;
+}
+
+.nav__button:hover{
+    background-color: #48e;
+    border: 2px #fff solid;
+
+}
+

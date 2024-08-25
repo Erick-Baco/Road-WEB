@@ -1,0 +1,18 @@
+.lista{
+    border: 2px solid #666;
+}
+
+.lista--vieja{
+    opacity: 0.5;
+    background-color: antiquewhite;
+}
+
+.lista__item{
+    color: #666;
+    margin: 10px 0;
+    list-style: square;
+}
+
+.item--principal{
+    color: red;
+}

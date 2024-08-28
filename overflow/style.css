@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+/*Overflow puede indicar si el texto se recorta,
+se oculta o se genera un scrol*/
+/*white-scpce. controlael flujo del texto en un contenedor
+nowrap- elimina los saltos de línea
+pre - conserva el formato de código establecido en el html
+pre-wrap: respeta le formato del html y se ajsta para no desbordar el contenido*/
+/*text-overflow: ellipsis muestra 3 puntos cuando hay desbordamiento
+word-break: recorta las palabras y hace un salto de línea cuando hay desbordamiento*/
+/*text-wrap.balance pone renglones del mismo tamaño, funciona mejor con textos cortos o titulos.
+encambio pretty enfoca su balance en los últimos rebglones*/
+.box{
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    color: red;
+    position: relative;
+    left: 0;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    overflow: scroll;
+}

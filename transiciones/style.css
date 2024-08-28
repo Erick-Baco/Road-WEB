@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    transition: left 3s linear 2s;
+    color: red;
+    position:relative;
+    left: 0;
+}
+
+.box:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+body:hover .box{
+    left: 400px;
+}

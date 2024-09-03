@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*
+Se aplica a imagenes y videos
+
+Contain hace que la imagen se adapte al tamaño del contenedor para aparecer al menos unsa vez 
+pero no se recorta
+cover: la imagen se recorta opara llenar todo el espacio
+object-positio: permite mover el foco que se le da a la imagen
+none: respeta las medidas originales de la imagen
+scale-down: redondea los valores aal tamaño más pequeño posible (contain o none)*/
+img{
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+}

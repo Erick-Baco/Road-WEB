@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+/* .flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100wh;
+} */
+
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid #00f;
+    margin: 29px;
+    /*justiica cada renglon*/
+
+    /*funciona con una sola linea*/
+    align-items: center;
+    /*centrar a la línea cruzada, multiples lineas*/
+    align-content: center ;
+    height: 100vh;
+}
+
+.flex-item{
+
+    background-color: red;
+    font-size: 40px;
+    text-align: center;
+    /*flex abrevia los tres atributos, shrink, grow y basis
+      el primero define cuanto crecerá un elemento con relación a los demás, ocupando el espacio 
+      disponible
+      el segundo define cuanto se encojerá
+      el ultimo define el tamaño base de los elementos 
+      este atributo no es compatible con space-between*/
+    flex: 1 1 200px;
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+    /*posiciona los elementos en su orden asignado, solo se medifica el orden visual*/
+    /*si varios elementos tiene la misma jerarquía se ordenan segun su orden en html*/
+    /*si se usan orden negativos, el orden se cuenta de derecha a izquierda*/
+    /*order: 2;*/
+    /*utiliza todo el espacio disponible y se reparte a cada elemento n partes del espacio*/
+    /*la cantidad de espacios disponibles provienen del número de divisiones que se hacen*/
+    /*flex-grow: 2;*/
+}
+
+.flex-item:last-child{
+    background-color: #577;
+    /*order: 1;*/
+    /*flex-grow: 4;*/
+}

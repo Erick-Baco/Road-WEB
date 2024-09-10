@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--srcset especifica que imagen cargar segun la resolución de la pantalla-->
+    <!--sizes recomienda usar una imagen de x pixeles si la pantalla es menoro a cierto
+        limite, dentro del parentesis, después de la "," es el resto
+        primero se definen las imagenes con srcset y luego se define con sizes-->
+    <img src="imagen.png"
+     srcset="small.png 400w, medium.png 600w, big.png" 
+     sizes="(max-width: 400px) 300px, (max-width: 600px;) 500px, 900px">
+</body>
+</html>
